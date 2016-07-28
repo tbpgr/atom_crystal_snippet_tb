@@ -1,10 +1,7 @@
 {
   "name": "atom_crystal_snippet_tb",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "DEPRECATED: PLEASE USE language-crystal-actual INSTEAD.",
-  "keywords": [
-    "deprecated"
-  ],
   "keywords": [],
   "repository": "https://github.com/tbpgr/atom_crystal_snippet_tb",
   "license": "MIT",
