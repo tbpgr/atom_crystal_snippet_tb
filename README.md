@@ -1119,20 +1119,3 @@ body:
 match(${1:value})
 ~~~
 
-### parametrized
-prefix: parametrized  
-body:
-
-~~~
-macro ${1:method_name}(${2:macro_args}, expected)
-  it "${4:it}" do
-    actual = ${5:some_logic}
-    actual.should eq({{expected.id}})
-  end
-end
-
-describe "${6:describe}" do
-  ${1:method_name} ${7:some_args1}, ${8:some_expected1}
-  ${1:method_name} ${9:some_args2}, ${10:some_expected2}
-end$0
-~~~
